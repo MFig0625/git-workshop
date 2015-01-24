@@ -1,0 +1,89 @@
+<!DOCTYPE htnl>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn git &amp; GitHub!</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Installing git</h1>
+
+    <main>
+      <section>
+        <h2>Command Line Cheat Sheet</h2>
+
+        <dl>
+          <dt><code>cd /path/to/file</code></dt>
+          <dd>change directory</dd>
+
+          <dt><code>cd ~</code> or <code>cd</code></dt>
+          <dd>return to home directory</dd>
+
+          <dt><code>mkdir</code></dt>
+          <dd>make directory</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Mac</h2>
+
+        <p>Type the following and you should see the following:</p>
+
+        <pre>$ which git
+/usr/bin/git
+$ git --version
+git version 1.9.3 (Apple Git-50)
+        </pre>
+      </section>
+
+      <section>
+        <h2>Whoa? What's this dialogue box?</h2>
+        <pre><img src="img/alert.jpg" /></pre>
+
+        <p>It's okay. click install. :)</p>
+      </section>
+
+      <section>
+        <h2>Windows</h2>
+
+        <p>Visit <a href="http://git-scm.com/">git-scm.com</a>.</p>
+
+        <p>Download and install the software as you normally would.</p>
+
+        <p>If you are prompted to install <code>git-bash</code>, yes, install it.</p>
+      </section>
+
+      <section>
+        <h2>Configure git</h2>
+
+        <pre>$ git config --global user.name "your name"
+$ git config --global user.email "your email"
+</pre>
+
+        <p>You can check your settings by typing:</p>
+
+        <pre>$ git config --list</pre>
+      </section>
+
+      <section>
+        <h2>Configuring your keychain</h2>
+
+        <h3>Mac OS X</h3>
+
+        <pre>$ git credential-osxkeychain</pre>
+
+        <h3>Windows</h3>
+
+        <pre>$ git config --global credential.helper wincred</pre>
+
+        <p>Reference: <a href="https://help.github.com/articles/caching-your-github-password-in-git/">Caching your GitHub password in Git</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <a href="github-register.html">Let's register for GitHub! &raquo;</a>
+    </footer>
+
+  </body>
+</html>
